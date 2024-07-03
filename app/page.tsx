@@ -2,6 +2,7 @@ import Image from "next/image";
 import header from "../../aia-app/public/SDA-Logo.png";
 import {rubik} from "./layout";
 import HeaderItem from "@/components/header-item";
+import MainButton from "@/components/main-button";
 
 export default function Home() {
   return (
@@ -15,11 +16,12 @@ export default function Home() {
             </span>
           </div>
 
-          <div className={"uppercase flex-row items-center space-x-8 text-lg " + rubik.className}>
+          <div className={"uppercase flex-row items-center space-x-8 text-md " + rubik.className}>
             <HeaderItem>News and Media</HeaderItem>
             <HeaderItem>Contact</HeaderItem>
             <HeaderItem>Organization</HeaderItem>
             <HeaderItem>About</HeaderItem>
+            <MainButton className="py-2 px-6" onClick={() => {}}>Join Now</MainButton>
           </div>
       </header>
     </main>
