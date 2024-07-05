@@ -39,6 +39,7 @@ const DATA = [
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start">
+      <title>Sto Domingo Associates</title>
       <header className="fixed shadow-lg flex flex-row items-center justify-between padding w-full h-[90px] bg-red-300 bg-opacity-80 z-10">
           <div className={"uppercase flex flex-wrap flex-cols items-center " + rubik.className}> 
             <Image src = {header} alt="Sto. Domingo Associates Agency Logo" className="bg-contain bg-no-repeat w-20 h-20"/>
