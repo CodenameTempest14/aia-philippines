@@ -5,17 +5,20 @@ import Link from "next/link";
 type HeaderItemProps = {
     children?: React.ReactNode;
     href?: string;
+    className?: string;
 };
 
-const HeaderItem = ({children, href}: HeaderItemProps) => {
+const HeaderItem = ({children, href, className}: HeaderItemProps) => {
     return (
-        <Link   
-            href={href ?? "#"}
-            target={href && "_blank"}
-            className="font-medium text-black cursor-pointer hover:scale-105 duration-150"
-        >
-            {children}
-        </Link>
+        <div 
+            className={"h-20 flex flex-row items-center font-semibold text-black cursor-pointer " + className}>
+                <Link   
+                    href={href ?? "#"}
+                    target={href && "_blank"}
+                >
+                    {children}
+                </Link>
+        </div>
     );
 };
 
