@@ -66,14 +66,14 @@ const Carousel = ({
           onClick={() => setCurrentImg((prev) => prev - 1)}
           className={`absolute top-1/2 left-2 transform -translate-y-1/2 px-4 py-2 font-bold ${currentImg === 0 && 'opacity-50'}`}
         >
-          <FaCircleChevronLeft size="40px" opacity="70%"/>
+          <FaCircleChevronLeft size="40px" opacity="70%" color='white'/>
         </button>
         <button
           disabled={currentImg === data.length - 1}
           onClick={() => setCurrentImg((prev) => prev + 1)}
           className={`absolute top-1/2 right-2 transform -translate-y-1/2 px-4 py-2 font-bold ${currentImg === data.length - 1 && 'opacity-50'}`}
         >
-         <FaChevronCircleRight size="40px" opacity="70%"/>
+         <FaChevronCircleRight size="40px" opacity="70%" color='white'/>
         </button>
       </div>
     </div>
