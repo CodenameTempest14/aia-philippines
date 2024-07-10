@@ -16,6 +16,11 @@ import { BsCardChecklist } from "react-icons/bs";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { RiTeamFill } from "react-icons/ri";
 import { FaCircleDollarToSlot } from "react-icons/fa6";
+import AIA_Group_Pic from "../public/Picture 1.png";
+import { MdOutlineAutoGraph } from "react-icons/md";
+import { FaRegClock } from "react-icons/fa";
+import { GiHandBag } from "react-icons/gi";
+import { FaRegHeart } from "react-icons/fa";
 
 const DATA = [
   {
@@ -45,22 +50,26 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start">
       <title>Sto Domingo Associates</title>
-      <header className="fixed shadow-lg flex flex-row items-center justify-between padding w-full h-[90px] bg-red-300 bg-opacity-80 z-10">
-          <div className={"uppercase flex flex-wrap flex-cols items-center " + rubik.className}> 
-            <Image src = {header} alt="Sto. Domingo Associates Agency Logo" className="bg-contain bg-no-repeat w-20 h-20"/>
-            <span className={"text-2xl font-semibold pl-3 text-red-900 "}>
-              sto domingo associates  
-              <br/><span className="text-black text-xl font-medium">AIA Philippines</span> 
-            </span>
-          </div>
+      <header className="fixed w-full flex flex-row justify-center bg-red-300 bg-opacity-80 z-10">
+        <div className="flex flex-col items-center justify-center">
+          <div className="flex flex-row items-center space-x-[400px] padding w-full h-[90px]">
+            <div className={"uppercase flex flex-wrap flex-cols items-center " + rubik.className}> 
+              <Image src = {header} alt="Sto. Domingo Associates Agency Logo" className="bg-contain bg-no-repeat w-20 h-20"/>
+              <span className={"text-2xl font-semibold pl-3 text-red-900 "}>
+                sto domingo associates  
+                <br/><span className="text-black text-xl font-medium">AIA Philippines</span> 
+              </span>
+            </div>
 
-          <div className={"transition duration-300 uppercase flex flex-row items-center space-x-8 text-md " + rubik.className}>
-            <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">News and Media</HeaderItem>
-            <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">Organization</HeaderItem>
-            <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">Contact</HeaderItem>
-            <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">About</HeaderItem>
-            <button className={"uppercase font-semibold text-white bg-red-400 w-24 h-10 hover:scale-110 duration-150 " + rubik.className}>Join Now</button>
+            <div className={"transition duration-300 uppercase flex flex-row items-center space-x-8 text-md " + rubik.className}>
+              <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">News and Media</HeaderItem>
+              <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">Organization</HeaderItem>
+              <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">Contact</HeaderItem>
+              <HeaderItem className="hover:scale-105 duration-150 hover:text-red-700">About</HeaderItem>
+              <button className={"uppercase font-semibold text-white bg-red-400 w-24 h-10 hover:scale-110 duration-150 " + rubik.className}>Join Now</button>
+            </div>
           </div>
+        </div>       
       </header>
 
       <div className="mt-[150px] my-[100px]">
@@ -101,9 +110,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={"my-16  w-full h-[750px] flex flex-row padding " + rubik.className}>
+      <div className={"items-center justify-center my-16  w-full h-[750px] flex flex-row padding " + rubik.className}>
         <Image src={building} alt="building" className="object-cover h-[700px] w-[500px] rounded-2xl sticky left-[470px]"/>
-        <div className="h-[700px] w-[500px] bg-red-300 relative left-[200px] top-[30px] flex rounded-2xl p-7 flex-col items-start space-y-4 shadow-xl">
+        <div className="h-[700px] w-[500px] bg-red-300 relative -left-[15px] top-[30px] flex rounded-2xl p-7 flex-col items-start space-y-4 shadow-xl">
           <span className="font-bold text-3xl">
             <span className="text-red-800">STO. DOMINGO ASSOCIATES </span>
             <br/>IS ONE OF THE LARGEST 
@@ -185,6 +194,48 @@ export default function Home() {
               </span>
             </div>  
           </div>
+        </div>
+      </div>
+
+      <div className={"relative items-center flex-grow text-red-800 font-semibold text-5xl m-7 mb-20 flex flex-col " + rubik.className}>
+        <Image src={AIA_Group_Pic} alt="Group Pic"
+          className="object-contain w-[1400px] rounded-2xl"
+        />
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 mb-20 text-white text-center w-[1100px]">
+          <span className="">
+            TAKE A GIANT LEAP IN YOUR CAREER AND 
+            EXCEL AS A <span className="text-yellow-400">PREMIER FINANCIAL ADVISOR!</span>
+          </span>
+        </div>
+      </div>
+      <div className="sticky -mt-28 mb-16 flex flex-grow flex-row items-center space-x-8 text-red-800 font-extrabold text-2xl uppercase">
+        <div className="h-[230px] w-[320px] bg-orange-300 rounded-2xl p-5 px-7 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
+          <MdOutlineAutoGraph size="45px"/>
+          <span>Advancement</span>
+          <span className="text-black text-center font-normal text-lg normal-case">
+            Explore limitless careen growth and enhance your skills with us!
+          </span>
+        </div>
+        <div className="h-[230px] w-[320px] bg-orange-200 rounded-2xl p-5 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
+          <FaRegClock size="40px" />
+          <span>Flexibility</span>
+          <span className="text-black text-center font-normal text-lg normal-case">
+            Take control of your time and enjoy a flexible schedule!
+          </span>
+        </div>
+        <div className="h-[230px] w-[320px] bg-orange-100 rounded-2xl p-5 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
+          <GiHandBag size="45px"/>
+          <span>Travel Rewards</span>
+          <span className="text-black text-center font-normal text-lg normal-case">
+            Earn rewards with local and international travel opportunities!
+          </span>
+        </div>
+        <div className="h-[230px] w-[320px] bg-orange-50 rounded-2xl p-5 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
+          <FaRegHeart size="40px" />
+          <span>Fulfillment</span>
+          <span className="text-black text-center font-normal text-lg normal-case">
+            Experience personal fulfillment by serving greater purpose!
+          </span>
         </div>
       </div>
 
