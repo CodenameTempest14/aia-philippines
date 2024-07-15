@@ -26,14 +26,14 @@ const DATA = [
   {
     image: 'https://picsum.photos/seed/random101/500/500',
     title: 'Always Innovating',
-    description: 'From marketing to product development, we’re relentlessly pursuing innovation.',
+    description: 'From marketing to product development&#44; we&#x2018re relentlessly pursuing innovation.',
     buttonText: 'Explore Innovations',
     buttonLink: '#',
   },
   {
     image: 'https://picsum.photos/seed/random102/500/500',
     title: 'Leading the Way',
-    description: 'We set the standard in the industry with our cutting-edge solutions and unparalleled service.',
+    description: 'We set the standard in the industry with our cutting&ndash;edge solutions and unparalleled service.',
     buttonText: 'Learn More',
     buttonLink: '#',
   },
@@ -121,12 +121,12 @@ export default function Home() {
 
           <span className="text-lg">
             Sto. Domingo Associates stands as one of the largest and most prominent agencies within AIA Philippines.
-            Renowned for its extensive network and exceptional service, the agency has established a strong reputation 
-            in the industry, reflecting its commitment to excellence and client satisfaction. 
+            Renowned for its extensive network and exceptional service&#44; the agency has established a strong reputation 
+            in the industry&#44; reflecting its commitment to excellence and client satisfaction. 
             <br/><br/>This success is built on a foundation of experienced professionals who bring a wealth of knowledge and dedication 
-            to their work. Through continuous innovation and a client-centric approach, Sto. Domingo Associates not only meets 
+            to their work. Through continuous innovation and a client-centric approach&#59; Sto. Domingo Associates not only meets 
             but often exceeds the expectations of those they serve. Their proactive strategies and personalized solutions ensure 
-            that clients  receive the best possible outcomes, cementing the agency's position as a leader in the Philippine insurance market.
+            that clients  receive the best possible outcomes, cementing the agency&#x2018;s position as a leader in the Philippine insurance market.
           </span>
         </div>
       </div>
@@ -204,7 +204,7 @@ export default function Home() {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 mb-20 text-white text-center w-[1100px]">
           <span className="">
             TAKE A GIANT LEAP IN YOUR CAREER AND 
-            EXCEL AS A <span className="text-yellow-400">PREMIER FINANCIAL ADVISOR!</span>
+            EXCEL AS A <span className="text-yellow-400">PREMIER FINANCIAL ADVISOR&#33;</span>
           </span>
         </div>
       </div>
@@ -213,21 +213,21 @@ export default function Home() {
           <MdOutlineAutoGraph size="45px"/>
           <span>Advancement</span>
           <span className="text-black text-center font-normal text-lg normal-case">
-            Explore limitless careen growth and enhance your skills with us!
+            Explore limitless careen growth and enhance your skills with us&#33;
           </span>
         </div>
         <div className="h-[230px] w-[320px] bg-orange-200 rounded-2xl p-5 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
           <FaRegClock size="40px" />
           <span>Flexibility</span>
           <span className="text-black text-center font-normal text-lg normal-case">
-            Take control of your time and enjoy a flexible schedule!
+            Take control of your time and enjoy a flexible schedule&#33;
           </span>
         </div>
         <div className="h-[230px] w-[320px] bg-orange-100 rounded-2xl p-5 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
           <GiHandBag size="45px"/>
           <span>Travel Rewards</span>
           <span className="text-black text-center font-normal text-lg normal-case">
-            Earn rewards with local and international travel opportunities!
+            Earn rewards with local and international travel opportunities&#33;
           </span>
         </div>
         <div className="h-[230px] w-[320px] bg-orange-50 rounded-2xl p-5 shadow-md flex flex-col items-center space-y-4 hover:scale-105 hover:shadow-xl duration-200 cursor-pointer">
@@ -259,7 +259,7 @@ export default function Home() {
             <span className="font-semibold text-lg">Contact Information</span>
             <div className="flex flex-row items-center space-x-2">
               <MdOutlineEmail color="white" size="30px"/>
-              <span>stodomingoassociates@gmail.com</span>
+              <span>stodomingoassociates&#64;gmail.com</span>
             </div>
             <div className="flex flex-row items-center space-x-2">
               <MdOutlinePhoneInTalk color="white" size="30px"/>
@@ -279,10 +279,10 @@ export default function Home() {
         <div className="bg-white h-[1px] w-full my-7"/>
         <div className="flex flex-col items-center font-thin text-xs">
           <span>
-            Leviste Street, 9F Philam Salcedo Building Makati City, NCR 1200, Philippines
+            Leviste Street&#44; 9F Philam Salcedo Building Makati City&#44; NCR 1200&#44; Philippines
           </span>
           <span>
-            @2024 stodomingoassociates.vercel.app. All rights reserved.
+            &#64;2024 stodomingoassociates.vercel.app. All rights reserved.
           </span>
         </div>
       </footer>
