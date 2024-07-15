@@ -1,6 +1,6 @@
 import Image from "next/image";
-import header from "../../aia-app/public/SDA-Logo.png";
-import pic_1 from "../../aia-app/public/family-christmas.jpg";
+import header from "../public/SDA-Logo.png";
+import pic_1 from "../public/family-christmas.jpg";
 import {rubik} from "./layout";
 import HeaderItem from "@/components/header-item";
 import { HiOutlineComputerDesktop } from "react-icons/hi2";
@@ -11,7 +11,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlinePhoneInTalk } from "react-icons/md";
 import { IoLogoFacebook } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa6";
-import building from "../../aia-app/public/AIA-Bldg.png";
+import building from "../public/AIA-Bldg.png";
 import { BsCardChecklist } from "react-icons/bs";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { RiTeamFill } from "react-icons/ri";
